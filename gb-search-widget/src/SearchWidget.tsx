@@ -126,7 +126,7 @@ export function SearchWidget({ brand = "Golfbreaks" }: Props) {
 
   return (
     <Box sx={{ margin: 3 }}>
-      <Typography variant="h3">{brand} Search</Typography>
+      <Typography variant="h3">{brand} Search </Typography>
       <TextField
         value={query}
         onChange={(event) => setQuery(event.target.value)}
